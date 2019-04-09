@@ -1,0 +1,51 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile Plugin",
+            "type": "process",
+            "command": "${workspaceFolder}\\#Compiler\\amxxpc.exe",
+            "args": [
+                "${file}",
+                "-i${workspaceFolder}\\#Compiler\\include",
+                "-o${workspaceFolder}\\compiled\\${fileBasenameNoExtension}.amxx"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$go"
+            ],
+
+
+            // https://dev-cs.ru/threads/1405/#post-44137
+            
+            // "promptOnClose": false,
+            // "presentation": {
+            //     "reveal": "never", // "never" or "always" when we need to see also console output
+            //     // "reveal": "always",
+            //     "panel": "dedicated",
+            //     "clear": true
+            // },
+            // "problemMatcher": {
+            //     "fileLocation": "absolute",
+            //     "pattern": {
+            //         // Group 1 - filename (absolute path for filename)
+            //         // Group 2 - beginning line
+            //         // Group 3 - ending line (optional)
+            //         // Group 4 - error | warning (severity)
+            //         // Group 5 - message
+            //         "regexp": "(.+?)\\((\\d+)(?:\\s--\\s(\\d+))?\\)\\s:\\s(warning|error)\\s\\d+:\\s(.*)",
+            //         "file": 1,
+            //         "line": 2,
+            //         "column": 3,
+            //         "severity": 4,
+            //         "message": 5
+            //     }
+            // }
+        }
+    ]
+}

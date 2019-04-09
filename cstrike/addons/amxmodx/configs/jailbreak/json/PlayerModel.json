@@ -1,0 +1,23 @@
+{
+    "Model": {
+        "Simon": {
+            "player": "vip",
+            "body": -1
+        },
+        "Guard": {
+            "player": "gign",
+            "body": -1
+        },
+        "Prisoner": {
+            "player": "terror",
+            "body": -1,
+            "skin": {
+                "normal": [
+                    0
+                ],
+                "free": -1,
+                "wanted": -1
+            }
+        }
+    }
+}

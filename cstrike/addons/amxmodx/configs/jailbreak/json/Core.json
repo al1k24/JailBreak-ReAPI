@@ -1,0 +1,37 @@
+{
+    "Sound": {
+        "FreeDay": {
+            "Start": "jailbreak\\fd_start.wav",
+            "End": "jailbreak\\fd_end.wav"
+        },
+        "Game": {
+            "Start": "jailbreak\\game\\game_start.wav",
+            "Wait": "jailbreak\\game\\game_wait.wav"
+        },
+        "Riot": "jailbreak\\prison_riot.wav",
+        "Shop": "jailbreak\\shop\\purchase.wav",
+        "Menu": "jailbreak\\menu_click.wav"
+    },
+    "RemoveEnt": {
+        "func_hostage_rescue": true,
+        "info_hostage_rescue": true,
+        "func_bomb_target": true,
+        "info_bomb_target": true,
+        "func_vip_safetyzone": true,
+        "info_vip_start": true,
+        "func_escapezone": true,
+        "hostage_entity": true,
+        "monster_scientist": true,
+        "func_buyzone": true
+    },
+    "BlockMessage": {
+        "#Game_teammate_attack": true,
+        "#Game_join_terrorist": true,
+        "#Game_join_ct": true,
+        "#Game_scoring": true,
+        "#Game_will_restart_in": true,
+        "#Game_Commencing": true,
+        "#Only_1_Team_Change": true,
+        "#Weapon_Cannot_Be_Dropped": true
+    }
+}

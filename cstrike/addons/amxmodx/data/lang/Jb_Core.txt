@@ -1,0 +1,211 @@
+[en]
+#Jb_Msg_Prefix = \g[JB]\d
+
+#Jb_Menu_Contact = \y~ \wSkype:\d %s^n\y~ \wСайт:\d %s^n\y~ \wВконтакте:\d %s
+
+#Jb_Menu_Null = 
+#Jb_Menu_Next = Далее
+#Jb_Menu_Back = Назад
+#Jb_Menu_Exit = Выход
+
+#Jb_Menu_Number = \r[%d]
+#Jb_Menu_Percent = \r[\d %d%% \r]
+#Jb_Menu_Numbers = \r[\y%d/%d\r]
+#Jb_Menu_Dev = \r[\d В разработке \r]
+
+#Jb_Menu_Buy = \r[\d$\r]
+#Jb_Menu_Cell = \r[\y%d\r]
+#Jb_Menu_Price = \r[\y %d$ \r]
+#Jb_Menu_Info = \r[\d Инфо \r]
+#Jb_Menu_Wait = \r[\y жди %d сек \r]
+
+#Jb_Menu_Have = \r[\d Есть \r]
+
+#Jb_Menu_On_1 = \r[\d Включён \r]
+#Jb_Menu_On_2 = \r[\d Включена \r]
+#Jb_Menu_On_3 = \r[\d Включено \r]
+
+#Jb_Menu_Start_1 = \r[\d Запущен \r]
+#Jb_Menu_Start_2 = \r[\d Запущена \r]
+#Jb_Menu_Start_3 = \r[\d Запущено \r]
+
+#Jb_Menu_Off_1 = \r[\d Отключён \r]
+#Jb_Menu_Off_2 = \r[\d Отключена \r]
+#Jb_Menu_Off_3 = \r[\d Отключено \r]
+
+#Jb_Menu_Sex_1 = \r[\d Мужской \r]
+#Jb_Menu_Sex_2 = \r[\d Женский \r]
+#Jb_Menu_Sex_3 = \r[\d Мутант \r]
+
+#Jb_Menu_Alive_1 = \r[\d Живой \r] 
+#Jb_Menu_Alive_2 = \r[\d Живая \r] 
+#Jb_Menu_Alive_3 = \r[\d Живое \r] 
+
+#Jb_Menu_Dead_1 = \r[\d Мёртвый \r] 
+#Jb_Menu_Dead_2 = \r[\d Мёртвая \r] 
+#Jb_Menu_Dead_3 = \r[\d Мёртвое \r] 
+
+#Jb_Menu_Enable_1 = \r[\d Доступен \r]
+#Jb_Menu_Enable_2 = \r[\d Доступна \r]
+#Jb_Menu_Enable_3 = \r[\d Доступно \r]
+
+#Jb_Menu_Selected_1 = \r[\d Выбран \r]
+#Jb_Menu_Selected_2 = \r[\d Выбрана \r]
+#Jb_Menu_Selected_3 = \r[\d Выбрано \r]
+
+#Jb_Menu_Disable_1 = \r[\d Недоступен \r] 
+#Jb_Menu_Disable_2 = \r[\d Недоступна \r] 
+#Jb_Menu_Disable_3 = \r[\d Недоступно \r]
+
+#Jb_Menu_Limit_1_1 = \r[\d%d шт\r]
+#Jb_Menu_Limit_1_2 = \r[\d %d рнд \r]
+#Jb_Menu_Limit_1_3 = \r[\d%d\r] [\d %d рнд \r]
+#Jb_Menu_Limit_2 = \r[\d Нет прав \r]
+#Jb_Menu_Limit_3 = \r[\d Лимит \r]
+#Jb_Menu_Limit_4 = \r[\d %d Уровень \r]
+#Jb_Menu_Limit_5 = \r[\d %d за рнд \r]
+
+#Jb_Menu_String = \r[\d %s \r]
+
+#Jb_StatusMsg_EnemyInfo = 1 %%p2 | HP: %d%s | %d$
+
+#Jb_Hud_Informer_Day = День %d, %s
+#Jb_Hud_Informer_Round = %s
+#Jb_Hud_Informer_Game = Режим:
+#Jb_Hud_Informer_Duel = Дуэль: %s
+#Jb_Hud_Informer_Simon = Начальник: %s
+#Jb_Hud_Informer_PrisonerCount = Заключённые: [%d/%d]
+#Jb_Hud_Informer_GuardCount = Охранники: [%d/%d]
+
+#Jb_Hud_Informer_PlayerInfo_1 = Рубли: %d^n[ Уровень: %d | Опыт: %d/%d ]
+#Jb_Hud_Informer_PlayerInfo_2 = %s^n[ Уровень: %d | Опыт: %d/%d ]
+
+#Jb_Hud_Informer_NotFree = 
+#Jb_Hud_Informer_HasFree = ^nНа свободе:
+
+#Jb_Hud_Informer_NotWanted = 
+#Jb_Hud_Informer_HasWanted = ^nБунтующие:
+
+#Jb_Hud_Informer_NormalDay = Обычный день
+#Jb_Hud_Informer_GameWait = Не выбран
+#Jb_Hud_Informer_NoDuel = Дуэль отсутсвует
+#Jb_Hud_Informer_RoundEnd = Конец раунда
+#Jb_Hud_Informer_Restart = Рестарт игры
+#Jb_Hud_Informer_FreeDay = Свободный день
+#Jb_Hud_Informer_RestartEnd = Игра стартовала
+#Jb_Hud_Informer_NoSimon = Отсутсвует
+
+#Jb_WeekDay_0 = Начало игры
+#Jb_WeekDay_1 = Понедельник
+#Jb_WeekDay_2 = Вторник
+#Jb_WeekDay_3 = Среда
+#Jb_WeekDay_4 = Четверг
+#Jb_WeekDay_5 = Пятница
+#Jb_WeekDay_6 = Суббота
+#Jb_WeekDay_7 = Воскресенье
+
+#Jb_Hud_Informer_Timer = [%s]
+
+#Jb_Msg_Last = \b%s\d - последний заключённый !
+#Jb_Msg_Counter = [ Обратный отсчёт: %d ]
+#Jb_Msg_Counter_End = [ Обратный отсчёт закончен ]
+#Jb_Msg_Counter_Reset = [ Обратный отсчёт отменён ]
+
+#Jb_Msg_Duel_Remove = \b%s\d - отказался от дуэлей !
+
+#Jb_Menu_Respawn_Title = \y[JB]\r М\wеню возраждения:
+#Jb_Menu_Respawn_Item_1 = Возрадиться
+#Jb_Menu_Respawn_Item_2 = Нет, не хочу.
+
+#Jb_Menu_Main_Title = \y[JB]\r И\wгровое меню:^n\r[\d http://\yrejb.ru \r]
+#Jb_Menu_Main_Item_1 = Магазин
+#Jb_Menu_Main_Item_2 = Развлеченье
+#Jb_Menu_Main_Item_3 = Меню переводов
+#Jb_Menu_Main_Item_4_1 = Меню последнего
+#Jb_Menu_Main_Item_4_2 = Меню начальника
+#Jb_Menu_Main_Item_4_3 = Стать начальником
+#Jb_Menu_Main_Item_5 = Выбор команды
+#Jb_Menu_Main_Item_6 = Мои настройки
+#Jb_Menu_Main_Item_7 = Профиль
+
+#Jb_Menu_Main_Item_8 = Привилегия \d| \yВип
+#Jb_Menu_Main_Item_9 = Привилегия \d| \yАдмин
+
+#Jb_Menu_Team_Title = \y[JB]\r В\wыбор команды:
+#Jb_Menu_Team_Title_Info = \r[-]\y Баланс: \r%d \dк 1
+#Jb_Menu_Team_Item_1 = Заключённые
+#Jb_Menu_Team_Item_2 = Охрана
+#Jb_Menu_Team_Item_2_Info = \r[\d Вход 16+ \r]
+#Jb_Menu_Team_Item_6 = Наблюдатель
+
+#Jb_Menu_Simon_Title = \y[JB]\r М\wеню начальника:
+#Jb_Menu_Simon_Item_1 = Клетки
+#Jb_Menu_Simon_Item_1_1 = \r[\d Открыть \r]
+#Jb_Menu_Simon_Item_1_2 = \r[\d Закрыть \r]
+#Jb_Menu_Simon_Item_2 = Обратный отсчёт
+#Jb_Menu_Simon_Item_3 = Обыскать заключённого
+#Jb_Menu_Simon_Item_4 = Cвободный день
+#Jb_Menu_Simon_Item_4_1 = \r[\d Начать \r]
+#Jb_Menu_Simon_Item_4_2 = \r[\d Закончить \r]
+#Jb_Menu_Simon_Item_5 = Наказать охранника
+#Jb_Menu_Simon_Item_6 = Вылечить заключённого
+#Jb_Menu_Simon_Item_7 = Мини игры
+#Jb_Menu_Simon_Item_8 = Передать начальника
+#Jb_Menu_Simon_Item_9 = Выдать преимущества \r[\d Z \r]
+
+#Jb_Msg_SimoMenuItem_PrisonCure = \nНачальник подлечил заключённого \r%s\n.
+#Jb_Msg_SimoMenuItem_TransferSimon = \nНачальник был передан \b%s\n.
+#Jb_Msg_SimoMenuItem_PunishGuard = \nНачальник наказал \b%s\n и перевёл за зэков.
+#Jb_Msg_SimoMenuItem_PunishGuard_IsBlocked = \nПерейти за охрану сможешь лишь начиная со следующего раунда.
+
+#Jb_Menu_Counter_Title = \y[JB]\r М\wеню отсчёта:
+#Jb_Menu_Counter_Item_1 = 3 сек
+#Jb_Menu_Counter_Item_2 = 5 сек
+#Jb_Menu_Counter_Item_3 = 10 сек
+#Jb_Menu_Counter_Item_4 = 20 сек
+#Jb_Menu_Counter_Item_5 = 30 сек
+#Jb_Menu_Counter_Item_7 = Остановить отсчёт
+
+#Jb_Menu_Games_Title = \y[JB]\r М\wеню режимов:
+
+#Jb_Menu_Players_Title = \y[JB]\r М\wеню игроков:
+
+#Jb_Menu_Shop_Title = \y[JB]\r М\wеню магазина:
+#Jb_Menu_Shop_Item_1 = Игровой магазин \r[\dN\r]
+#Jb_Menu_Shop_Item_2 = Режимный магазин \r[\dB\r]
+
+#Jb_Menu_Shop_Discount = \r[-]\y Скидка:\d %d%%
+
+#Jb_Menu_RealShop_Title = \y[JB]\r М\wеню магазина:
+#Jb_Menu_GameShop_Title = \y[JB]\r М\wеню магазина:
+
+#Jb_Menu_Last_Title = \y[JB]\r М\wеню выжившего:
+
+#Jb_Msg_Success_EnableInformer_1 = \bТы включил главный информер !
+#Jb_Msg_Success_DisableInformer_1 = \bТы отключил главный информер !
+
+#Jb_Msg_Error_LifeLimit = \rТы достил лимита жизней !
+#Jb_Msg_Error_MoneyLimit = \rТы достил лимита денег !
+
+#Jb_Msg_Success_PlayerHaveWeapon = [ Игрок имеет оружие ]
+#Jb_Msg_Error_PlayerNoWeapon = [ У игрока оружие не найдено ]
+
+#Jb_Msg_Error_Opsss = [ Упссс, что-то не так ]
+#Jb_Msg_Error_NoLife = [ Недостаточно жизней ]
+#Jb_Msg_Error_NoMoney = [ Недостаточно денег ]
+#Jb_Msg_Error_NoItems_Shop = [ Магазин пуст ]
+#Jb_Msg_Error_NoItems_Games = [ Меню режимов пусто ]
+#Jb_Msg_Error_NoItems_Last = [ Меню выжевшего пусто ]
+#Jb_Msg_Error_NoItems_Simon = [ Меню начальника пусто ]
+#Jb_Msg_Error_NoItems_Players = [ Меню игроков пусто ]
+#Jb_Msg_Error_NoItems_GameMenu = [ Игровое меню пусто ]
+#Jb_Msg_Error_NoPlayer = [ Данный игрок недоступен ]
+#Jb_Msg_Error_IvalidValue = [ Введено недопустимое значение ]
+#Jb_Msg_Error_IvalidPlayer = [ Данный игрок не подходит ]
+#Jb_Msg_Error_NoPlayers = [ Нет подходящих игроков ]
+#Jb_Msg_Error_NoGameStarted = [ Режим ещё не запущен ]
+#Jb_Msg_Error_IsDisable = [ Сейчас это недоступно ]
+#Jb_Msg_Error_IsAlive = [ Ты живой ]
+#Jb_Msg_Error_IsDead = [ Ты мёртв ]
+#Jb_Msg_Error_Wait = [ Подожди %d сек ]
+#Jb_Msg_Error_ComeToAlivePlayer = [ Подойди к живому игроку ]
